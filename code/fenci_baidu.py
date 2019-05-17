@@ -21,9 +21,9 @@ def seg_sentence(sentence):
 
 
 """ 你的 APPID AK SK """
-APP_ID = '14852015'
-API_KEY = 'Ifs1CM38mOnEyMK8AWUkelow'
-SECRET_KEY = 'GwPF0el706gmdpG78AGQZ8tj2RFyPT9h'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 f2 =open("fenci_result.txt", 'a',encoding='utf8')
 
